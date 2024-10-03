@@ -15,6 +15,12 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
 }
 
 .logo a {
@@ -72,6 +78,8 @@ nav ul li a:hover {
   justify-content: center;
   color: white;
   text-align: start;
+  transition: background-image 0.5s ease;
+  margin-top: 5rem;
 }
 
 #intro h4 {
@@ -231,7 +239,7 @@ nav ul li a:hover {
 
 .blog-posts button {
   padding: 0.6rem 0.8rem;
-  background-color: #007bb5;
+  background-color: #030303;
   color: white;
   border: none;
   border-radius: 0.2rem;
