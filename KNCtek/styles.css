@@ -222,6 +222,7 @@ nav ul li a:hover {
   width: 100%;
   height: auto;
   border-radius: 0.2rem;
+  object-fit: contain;
 }
 
 .blog-posts h2 {
@@ -330,7 +331,7 @@ footer {
   margin-bottom: 2rem;
 }
 
-.footer-container2{
+.footer-container2 {
   display: flex;
   gap: 2rem;
 }
@@ -407,8 +408,6 @@ footer p {
   font-weight: 600;
 }
 
-
-
 @media screen and (max-width: 768px) {
   header {
     display: flex;
@@ -451,7 +450,7 @@ footer p {
     margin-bottom: 1rem;
   }
 
-  #nav-links ul li a:hover{
+  #nav-links ul li a:hover {
     color: white;
   }
 
@@ -461,34 +460,33 @@ footer p {
     margin-right: 2rem;
   }
 
-  #intro{
+  #intro {
     margin-top: 8rem;
   }
 
-  #intro h4{
-    margin-top: .5rem;
+  #intro h4 {
+    margin-top: 0.5rem;
   }
 
-  #intro h1{
-   margin-top: -.8rem;
+  #intro h1 {
+    margin-top: -0.8rem;
   }
 
-  #intro b{
+  #intro b {
     color: blue;
   }
 
-
-  #intro p{
-    margin-top: .2rem;
+  #intro p {
+    margin-top: 0.2rem;
     color: black;
     font-size: 1rem;
     font-weight: bold;
     background-color: rgba(128, 128, 128, 0.447);
-    padding: .2rem;
+    padding: 0.2rem;
   }
 
-  #intro button{
-    margin-bottom: .8rem;
+  #intro button {
+    margin-bottom: 0.8rem;
   }
 
   .services-grid {
@@ -510,20 +508,20 @@ footer p {
     flex-direction: column;
   }
 
-  .testimonies-grid{
+  .testimonies-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
   }
 
-  .testimonial p{
+  .testimonial p {
     display: none;
   }
 
-  .footer-container{
+  .footer-container {
     display: block;
   }
 
-  .footer-container2{
+  .footer-container2 {
     display: flex;
     margin-top: 2rem;
     gap: 1rem;
